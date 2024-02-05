@@ -177,7 +177,7 @@ body {
 }
 
 .end_active {
-    z-index: 1;
+    z-index: 3;
     animation-name: down;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -203,6 +203,6 @@ body {
     100% {
 
         height: 100%;
-        display: none;
+        /* display: none; */
     }
 }
