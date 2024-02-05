@@ -131,7 +131,7 @@ body {
 .row {
     display: flex;
     width: 100%;
-    margin: 10px auto;
+    margin: 20px auto;
     background-color: #d8edff;
     color: black;
     padding: 5px 10px;
