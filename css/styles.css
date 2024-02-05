@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&family=Rancho&family=Varela+Round&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -12,18 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    /* background-color: #112d60; */
-    /* background-image: url(../assets/andrey-metelev-DEuansgqjns-unsplash.jpg); */
-    /* background-image: url(../assets/carl-raw-m3hn2Kn5Bns-unsplash.jpg); */
-    /* background-image: url(../assets/jonathan-petersson-a6N685qLsHQ-unsplash.jpg); */
-    /* background-image: url(../assets/vlad-namashko-9Oy85vXit60-unsplash.jpg); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-  
     width: 100%;
     height: 100vh;
 
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main_box {
@@ -37,7 +28,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-.half_part{
+.half_part {
 
     position: absolute;
     top: -50px;
@@ -55,9 +46,10 @@ font-family: 'Poppins', sans-serif;
     padding: 5px 10px;
     border-radius: 3px;
     border: 2px solid black;
-    
+
 }
-.total{
+
+.total {
     border: 2px solid black;
     background: white;
     padding: 5px 10px;
@@ -93,27 +85,28 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-.active{
+.active {
     animation-name: up;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    
+
 }
-@keyframes up{
-    0%{
+
+@keyframes up {
+    0% {
         height: 100%;
-       
+
     }
 
-    100%{
-       
+    100% {
+
         height: 0%;
         display: none;
     }
 }
 
-.after_none{
+.after_none {
     display: none;
 }
 
@@ -169,7 +162,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-.end{
+.end {
     width: 100%;
     position: absolute;
     top: 0px;
@@ -187,7 +180,8 @@ font-family: 'Poppins', sans-serif;
     z-index: -1;
     border: 2px solid white;
 }
-.end_active{
+
+.end_active {
     z-index: 1;
     animation-name: down;
     animation-duration: 1s;
@@ -195,7 +189,7 @@ font-family: 'Poppins', sans-serif;
     animation-fill-mode: forwards;
 }
 
-.reset{
+.reset {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 5px 10px;
@@ -205,18 +199,15 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-@keyframes down{
-    0%{
+@keyframes down {
+    0% {
         height: 0%;
-       
+
     }
 
-    100%{
-       
+    100% {
+
         height: 100%;
         display: none;
     }
 }
-
-
-
