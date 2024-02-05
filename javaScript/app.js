@@ -45,7 +45,7 @@ let Quiz_Que = [
         'correct': 'a'
     },
     {
-        'que': 'Quid-e-Azam\'s mother tougue\n was?',
+        'que': 'Quid-e-Azam\'s mother tougue was?',
         'a': 'Gujarati',
         'b': 'Hindi',
         'c': 'none of these',
@@ -204,10 +204,6 @@ const endQuiz = () => {
 const total_win_fn = () => {
     total_win.innerText = ` Wrong: ${wrong} / Correct: ${right}.`
     
-    // if (index==total) {
-    //     total_win.innerText = ` Total: ${total} / correct: ${right}.`
-        
-    // }
 }
 
 resetQuiz.addEventListener("click", () => {
@@ -217,7 +213,6 @@ resetQuiz.addEventListener("click", () => {
     right = 0;
     wrong = 0;
     total = Quiz_Que.length;
-
 
 
     loadQuestions();

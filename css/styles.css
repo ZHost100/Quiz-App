@@ -56,15 +56,7 @@ body {
     border-radius: 3px;
 }
 
-/* .win_end{
 
-}
-.win_end_active{
-    display: block;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-} */
 
 .intro {
     position: absolute;
@@ -114,7 +106,7 @@ body {
 
 .intro h3 {
     color: rgb(0 0 0);
-    font-size: 16px;
+    font-size: 15px;
     background: white;
     padding: 5px 12px;
     border-radius: 15px;
@@ -132,6 +124,7 @@ body {
 
 .questions {
     width: 100%;
+    font-size: 15px;
 
 }
 
@@ -150,10 +143,12 @@ body {
 .options {
     margin-right: 5px;
 }
-
+.row label{
+    font-size: 14px;
+}
 .btn {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     background: gray;
     color: white;
     border-radius: 5px;
